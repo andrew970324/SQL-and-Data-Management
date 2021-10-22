@@ -1,0 +1,1 @@
+SELECT title FROM Class WHERE dept = 'Biology' AND credits = '4';

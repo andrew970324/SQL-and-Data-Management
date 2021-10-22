@@ -1,0 +1,1 @@
+SELECT * FROM Classroom WHERE building LIKE 'P%';

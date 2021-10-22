@@ -1,0 +1,1 @@
+SELECT name FROM Student WHERE id NOT IN (SELECT DISTINCT Student.id FROM Student, Takes, Class WHERE Student.id = Takes.stud_id AND Takes.class_id = Class.id AND Student.dept = Class.dept);

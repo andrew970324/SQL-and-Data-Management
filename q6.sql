@@ -1,0 +1,1 @@
+SELECT name FROM Student WHERE id IN (SELECT DISTINCT stud_id FROM Takes WHERE class_id = 'CS-347' OR class_id = 'CS-347' OR (class_id = 'CS-101' AND semester = 'Fall'));

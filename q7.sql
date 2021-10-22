@@ -1,0 +1,1 @@
+SELECT DISTINCT stud_id FROM Takes WHERE grade LIKE 'A%';
