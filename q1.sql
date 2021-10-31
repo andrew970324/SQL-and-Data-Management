@@ -1,1 +1,3 @@
-SELECT name FROM Student WHERE dept='Comp. Sci.';
+SELECT name 
+FROM Student 
+WHERE dept='Comp. Sci.';
